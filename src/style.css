@@ -1,0 +1,35 @@
+* {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.container {
+    border: solid 2px black;
+    border-radius: 10px;
+    background: beige;
+}
+
+.outlined {
+    border: solid 2px black;
+    box-shadow: -4px 4px #999;
+    border-radius: 5px;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    background-color: #a0ce97;
+
+    border: solid 2px black;
+    box-shadow: -4px 4px #999;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(4px);
+    box-shadow: 0 0 #999;
+}
